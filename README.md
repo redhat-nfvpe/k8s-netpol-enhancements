@@ -1,2 +1,31 @@
-# k8s-netpol-enhancements
-Collaboration on enhancements to the kubernetes NetworkPolicy v1
+# Advanced Network Policy API project 
+
+This is a sub-project within the sig-network project of the CNCF. This project addresses enhancements to Kubernetes network policy beyond  the initial NetworkPolicy resource which is now GA within Kubernetes core networking code..
+
+**** Work in progress *****
+
+- a `README.md` outlining the project goals, sponsoring sig, and community contact information
+- an `OWNERS` with the project leads listed as approvers ([docs on `OWNERS` files][owners])
+- a `CONTRIBUTING.md` outlining how to contribute to the project
+- an unmodified copy of `code-of-conduct.md` from this repo, which outlines community behavior and the consequences of breaking the code
+- a `LICENSE` which must be Apache 2.0 for code projects, or [Creative Commons 4.0] for documentation repositories, without any custom content
+- a `SECURITY_CONTACTS` with the contact points for the Product Security Team 
+  to reach out to for triaging and handling of incoming issues. They must agree to abide by the
+  [Embargo Policy](https://git.k8s.io/security/private-distributors-list.md#embargo-policy)
+  and will be removed and replaced if they violate that agreement.
+
+## Community, discussion, contribution, and support
+
+Learn how to engage with the Kubernetes community on the [community page](http://kubernetes.io/community/).
+
+You can reach the maintainers of this project at:
+
+- [Slack](https://kubernetes.slack.com/archives/C01CWSHQWQJ)
+- [Mailing List](https://groups.google.com/forum/#!forum/kubernetes-dev)
+
+### Code of conduct
+
+Participation in the Kubernetes community is governed by the [Kubernetes Code of Conduct](code-of-conduct.md).
+
+[owners]: https://git.k8s.io/community/contributors/guide/owners.md
+[Creative Commons 4.0]: https://git.k8s.io/website/LICENSE
