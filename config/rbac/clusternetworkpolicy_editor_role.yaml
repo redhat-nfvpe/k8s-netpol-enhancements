@@ -1,0 +1,24 @@
+# permissions for end users to edit clusternetworkpolicies.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: clusternetworkpolicy-editor-role
+rules:
+- apiGroups:
+  - networking.x-k8s.io
+  resources:
+  - clusternetworkpolicies
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - networking.x-k8s.io
+  resources:
+  - clusternetworkpolicies/status
+  verbs:
+  - get
