@@ -1,0 +1,20 @@
+# permissions for end users to view clusternetworkpolicies.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: clusternetworkpolicy-viewer-role
+rules:
+- apiGroups:
+  - networking.x-k8s.io
+  resources:
+  - clusternetworkpolicies
+  verbs:
+  - get
+  - list
+  - watch
+- apiGroups:
+  - networking.x-k8s.io
+  resources:
+  - clusternetworkpolicies/status
+  verbs:
+  - get

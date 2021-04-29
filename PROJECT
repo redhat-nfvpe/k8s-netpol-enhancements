@@ -1,0 +1,7 @@
+domain: x-k8s.io
+repo: github.com/kubernetes-sigs/network-policy-api
+resources:
+- group: networking
+  kind: ClusterNetworkPolicy
+  version: v1beta1
+version: "2"
